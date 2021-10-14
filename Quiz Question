@@ -1,0 +1,9 @@
+#Quiz Question 9
+
+def all_aboard(a, *args, **kw): 
+    print(a, args, kw)
+ 
+all_aboard(4, 7, 3, 0, x=10, y=64)
+
+#How the output for this comes out as
+4 (7, 3, 0) {'x': 10, 'y': 64}
